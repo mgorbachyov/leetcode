@@ -10,26 +10,28 @@ int lengthOfLongestSubstring(string s)
         return 0;
     }
 
-    size_t first = 0;
+    size_t left = 0;
     size_t res = 1;
-    size_t len = 1;
+    size_t right = 1;
 
     set<char> chars;
     chars.insert(s[0]);
 
-    while (first + res < s.size()) {
-        char new_char = s[first + len];
+    while ((left + res < s.size()) && (right < s.size())) {
+        char new_char = s[right];
         if (chars.count(new_char)) {
-            ++first;
-	    len = 1;
-	    chars.clear();
-            chars.insert(s[first]);
+            while (s[left] != new_char) {
+                chars.erase(s[left]);
+                ++left;
+            }
+            chars.erase(s[left]);
+            ++left;
         } else {
             chars.insert(new_char);
-            ++len;
-	    if (len > res) {
-	        res = len;
-	    }
+            if (chars.size() > res) {
+                res = chars.size();
+            }
+            ++right;
         }
     }
 
