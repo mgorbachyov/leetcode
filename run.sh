@@ -16,17 +16,12 @@ set -e
 #g++ jump-game.cpp
 #time ./a.out
 
-g++ longest-substring-without-repeating-chars.cpp -Wall
-time ./a.out ""
-time ./a.out "a"
-time ./a.out "aa"
-time ./a.out "ab"
-time ./a.out "aba"
-time ./a.out "abac"
-time ./a.out "abcabcbb"
-time ./a.out "bbbbb"
-time ./a.out "pwwkew"
-time ./a.out "1248 fweuhwekqroije"
-STR=$(pwgen 40000 1)
-time ./a.out "$STR"
+#g++ longest-substring-without-repeating-chars.cpp -Wall
+#for s in "" "a" "aa" "ab" "aba" "abac" "abcabcbb" "bbbbb" "pwwkew" "1248 fweuhwekqroije" $(pwgen 40000 1)
+#do
+#	time ./a.out "$s"
+#done
+
+g++ min-stack.cpp -Wall
+time ./a.out
 
