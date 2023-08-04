@@ -22,6 +22,9 @@ set -e
 #	time ./a.out "$s"
 #done
 
-g++ min-stack.cpp -Wall
-time ./a.out
+#g++ min-stack.cpp -Wall
+#./a.out
+
+g++ number-of-islands.cpp -Wall
+./a.out
 
