@@ -25,6 +25,9 @@ set -e
 #g++ min-stack.cpp -Wall
 #./a.out
 
-g++ number-of-islands.cpp -Wall
+#g++ number-of-islands.cpp -Wall
+#./a.out
+
+g++ container-with-most-water.cpp -Wall
 ./a.out
 
