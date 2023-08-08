@@ -31,6 +31,9 @@ set -e
 #g++ container-with-most-water.cpp -Wall
 #./a.out
 
-g++ group-anagrams.cpp -Wall
+#g++ group-anagrams.cpp -Wall
+#./a.out
+
+g++ 2-add-two-numbers.cpp -Wall
 ./a.out
 
