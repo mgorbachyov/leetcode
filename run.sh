@@ -34,6 +34,9 @@ set -e
 #g++ group-anagrams.cpp -Wall
 #./a.out
 
-g++ 2-add-two-numbers.cpp -Wall
+#g++ 2-add-two-numbers.cpp -Wall
+#./a.out
+
+g++ 98-validate-binary-search-tree.cpp -Wall
 ./a.out
 
