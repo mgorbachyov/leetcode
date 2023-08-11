@@ -37,6 +37,12 @@ set -e
 #g++ 2-add-two-numbers.cpp -Wall
 #./a.out
 
-g++ 98-validate-binary-search-tree.cpp -Wall
-./a.out
+#g++ 98-validate-binary-search-tree.cpp -Wall
+#./a.out
+
+#g++ 48-rotate-image.cpp -Wall
+#./a.out
+
+g++ 39-combination-sum.cpp -Wall
+./a.out 7
 
