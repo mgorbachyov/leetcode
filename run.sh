@@ -43,6 +43,9 @@ set -e
 #g++ 48-rotate-image.cpp -Wall
 #./a.out
 
-g++ 39-combination-sum.cpp -Wall
-./a.out 7
+#g++ 39-combination-sum.cpp -Wall
+#./a.out 7
+
+g++ 34-find-first-and-last-pos-in-sorted-array.cpp -Wall
+./a.out
 
