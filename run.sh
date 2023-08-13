@@ -46,6 +46,9 @@ set -e
 #g++ 39-combination-sum.cpp -Wall
 #./a.out 7
 
-g++ 34-find-first-and-last-pos-in-sorted-array.cpp -Wall
+#g++ 34-find-first-and-last-pos-in-sorted-array.cpp -Wall
+#./a.out
+
+g++ 102-level-order.cpp
 ./a.out
 
