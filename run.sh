@@ -49,6 +49,9 @@ set -e
 #g++ 34-find-first-and-last-pos-in-sorted-array.cpp -Wall
 #./a.out
 
-g++ 102-level-order.cpp
-./a.out
+#g++ 102-level-order.cpp
+#./a.out
+
+g++ 121-best-time-buy-sell.cpp -Wall
+time ./a.out
 
