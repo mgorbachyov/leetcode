@@ -52,6 +52,9 @@ set -e
 #g++ 102-level-order.cpp
 #./a.out
 
-g++ 121-best-time-buy-sell.cpp -Wall
-time ./a.out
+#g++ 121-best-time-buy-sell.cpp -Wall
+#time ./a.out
+
+g++ 62-unique-paths.cpp -Wall
+./a.out
 
