@@ -55,6 +55,9 @@ set -e
 #g++ 121-best-time-buy-sell.cpp -Wall
 #time ./a.out
 
-g++ 62-unique-paths.cpp -Wall
+#g++ 62-unique-paths.cpp -Wall
+#./a.out
+
+g++ 207-course-schedule.cpp -Wall
 ./a.out
 
