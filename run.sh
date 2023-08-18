@@ -58,6 +58,9 @@ set -e
 #g++ 62-unique-paths.cpp -Wall
 #./a.out
 
-g++ 207-course-schedule.cpp -Wall
+#g++ 207-course-schedule.cpp -Wall
+#./a.out
+
+g++ 128-longest-consecutive-sequence.cpp
 ./a.out
 
