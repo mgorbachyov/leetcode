@@ -61,6 +61,9 @@ set -e
 #g++ 207-course-schedule.cpp -Wall
 #./a.out
 
-g++ 128-longest-consecutive-sequence.cpp
+#g++ 128-longest-consecutive-sequence.cpp
+#./a.out
+
+g++ 347-top-frequent-elements.cpp
 ./a.out
 
