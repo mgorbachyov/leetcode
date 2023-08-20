@@ -64,6 +64,12 @@ set -e
 #g++ 128-longest-consecutive-sequence.cpp
 #./a.out
 
-g++ 347-top-frequent-elements.cpp
-./a.out
+#g++ 347-top-frequent-elements.cpp
+#./a.out
+
+g++ 19-remove-nth-node-from-end-of-list.cpp -fsanitize=address -O1 -fno-omit-frame-pointer -g
+for i in $(seq 5)
+do
+	./a.out $i
+done
 
