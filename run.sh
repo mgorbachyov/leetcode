@@ -67,9 +67,12 @@ set -e
 #g++ 347-top-frequent-elements.cpp
 #./a.out
 
-g++ 19-remove-nth-node-from-end-of-list.cpp -fsanitize=address -O1 -fno-omit-frame-pointer -g
-for i in $(seq 5)
-do
-	./a.out $i
-done
+#g++ 19-remove-nth-node-from-end-of-list.cpp -fsanitize=address -O1 -fno-omit-frame-pointer -g
+#for i in $(seq 5)
+#do
+#	./a.out $i
+#done
+
+g++ 54-spiral-matrix.cpp -Wall -g
+./a.out
 
