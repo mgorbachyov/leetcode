@@ -76,6 +76,9 @@ set -e
 #g++ 54-spiral-matrix.cpp -Wall -g
 #./a.out
 
-g++ 438-all-anagrams-in-string.cpp  -fsanitize=address -O1 -fno-omit-frame-pointer -g
+#g++ 438-all-anagrams-in-string.cpp  -fsanitize=address -O1 -fno-omit-frame-pointer -g
+#./a.out
+
+g++ 394-decode-string.cpp -Wall
 ./a.out
 
