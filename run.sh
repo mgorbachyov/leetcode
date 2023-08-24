@@ -79,6 +79,9 @@ set -e
 #g++ 438-all-anagrams-in-string.cpp  -fsanitize=address -O1 -fno-omit-frame-pointer -g
 #./a.out
 
-g++ 394-decode-string.cpp -Wall
-./a.out
+#g++ 394-decode-string.cpp -Wall
+#./a.out
+
+g++ 15-3sum.cpp -Wall
+time ./a.out
 
