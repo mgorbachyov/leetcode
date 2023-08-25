@@ -82,6 +82,9 @@ set -e
 #g++ 394-decode-string.cpp -Wall
 #./a.out
 
-g++ 15-3sum.cpp -Wall
-time ./a.out
+#g++ 15-3sum.cpp -Wall
+#time ./a.out
+
+g++ 53-max-subarray.cpp -fsanitize=address -O1 -fno-omit-frame-pointer -g
+./a.out
 
