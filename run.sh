@@ -1,8 +1,10 @@
 #!/bin/sh
 
+CMD="g++ -Wall -fsanitize=address -O1 -fno-omit-frame-pointer -g"
+
 set -e
 
-#g++ trie.cpp
+#$CMD trie.cpp
 #./a.out "" apple
 #./a.out apple ""
 #./a.out apple apple
@@ -10,85 +12,52 @@ set -e
 #./a.out apple app
 #./a.out apple z
 
-#g++ kth-largest-element-in-array.cpp -Wall
+#$CMD kth-largest-element-in-array.cpp
 #for i in $(seq 6); do ./a.out $i; done
 
-#g++ jump-game.cpp
+#$CMD jump-game.cpp
 #time ./a.out
 
-#g++ longest-substring-without-repeating-chars.cpp -Wall
+#$CMD longest-substring-without-repeating-chars.cpp
 #for s in "" "a" "aa" "ab" "aba" "abac" "abcabcbb" "bbbbb" "pwwkew" "1248 fweuhwekqroije" $(pwgen 40000 1)
 #do
 #	time ./a.out "$s"
 #done
 
-#g++ min-stack.cpp -Wall
-#./a.out
+#$CMD min-stack.cpp
+#$CMD number-of-islands.cpp
+#$CMD container-with-most-water.cpp
+#$CMD group-anagrams.cpp
+#$CMD 2-add-two-numbers.cpp
+#$CMD 98-validate-binary-search-tree.cpp
+#$CMD 48-rotate-image.cpp
 
-#g++ number-of-islands.cpp -Wall
-#./a.out
-
-#g++ container-with-most-water.cpp -Wall
-#./a.out
-
-#g++ group-anagrams.cpp -Wall
-#./a.out
-
-#g++ 2-add-two-numbers.cpp -Wall
-#./a.out
-
-#g++ 98-validate-binary-search-tree.cpp -Wall
-#./a.out
-
-#g++ 48-rotate-image.cpp -Wall
-#./a.out
-
-#g++ 39-combination-sum.cpp -Wall
+#$CMD 39-combination-sum.cpp
 #./a.out 7
 
-#g++ 34-find-first-and-last-pos-in-sorted-array.cpp -Wall
-#./a.out
+#$CMD 34-find-first-and-last-pos-in-sorted-array.cpp
+#$CMD 102-level-order.cpp
+#$CMD 121-best-time-buy-sell.cpp
+#$CMD 62-unique-paths.cpp
+#$CMD 207-course-schedule.cpp
+#$CMD 128-longest-consecutive-sequence.cpp
+#$CMD 347-top-frequent-elements.cpp
 
-#g++ 102-level-order.cpp
-#./a.out
-
-#g++ 121-best-time-buy-sell.cpp -Wall
-#time ./a.out
-
-#g++ 62-unique-paths.cpp -Wall
-#./a.out
-
-#g++ 207-course-schedule.cpp -Wall
-#./a.out
-
-#g++ 128-longest-consecutive-sequence.cpp
-#./a.out
-
-#g++ 347-top-frequent-elements.cpp
-#./a.out
-
-#g++ 19-remove-nth-node-from-end-of-list.cpp -fsanitize=address -O1 -fno-omit-frame-pointer -g
+#$CMD 19-remove-nth-node-from-end-of-list.cpp
 #for i in $(seq 5)
 #do
 #	./a.out $i
 #done
 
-#g++ 54-spiral-matrix.cpp -Wall -g
-#./a.out
+#$CMD 54-spiral-matrix.cpp
+#$CMD 438-all-anagrams-in-string.cpp
+#$CMD 394-decode-string.cpp
+#$CMD 15-3sum.cpp
+#$CMD 53-max-subarray.cpp
+#$CMD 206-reverse-linked-list.cpp
 
-#g++ 438-all-anagrams-in-string.cpp  -fsanitize=address -O1 -fno-omit-frame-pointer -g
-#./a.out
+$CMD 46-permutations.cpp
 
-#g++ 394-decode-string.cpp -Wall
-#./a.out
-
-#g++ 15-3sum.cpp -Wall
-#time ./a.out
-
-#g++ 53-max-subarray.cpp -fsanitize=address -O1 -fno-omit-frame-pointer -g
-#./a.out
-
-
-g++ 206-reverse-linked-list.cpp -Wall -fsanitize=address -O1 -fno-omit-frame-pointer -g
 ./a.out
+#time ./a.out
 
