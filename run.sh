@@ -85,6 +85,10 @@ set -e
 #g++ 15-3sum.cpp -Wall
 #time ./a.out
 
-g++ 53-max-subarray.cpp -fsanitize=address -O1 -fno-omit-frame-pointer -g
+#g++ 53-max-subarray.cpp -fsanitize=address -O1 -fno-omit-frame-pointer -g
+#./a.out
+
+
+g++ 206-reverse-linked-list.cpp -Wall -fsanitize=address -O1 -fno-omit-frame-pointer -g
 ./a.out
 
