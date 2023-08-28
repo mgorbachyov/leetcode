@@ -55,8 +55,8 @@ set -e
 #$CMD 15-3sum.cpp
 #$CMD 53-max-subarray.cpp
 #$CMD 206-reverse-linked-list.cpp
-
-$CMD 46-permutations.cpp
+#$CMD 46-permutations.cpp
+$CMD 74-search-2d-matrix.cpp
 
 ./a.out
 #time ./a.out
