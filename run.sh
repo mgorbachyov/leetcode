@@ -56,7 +56,8 @@ set -e
 #$CMD 53-max-subarray.cpp
 #$CMD 206-reverse-linked-list.cpp
 #$CMD 46-permutations.cpp
-$CMD 74-search-2d-matrix.cpp
+#$CMD 74-search-2d-matrix.cpp
+$CMD 105-construct-binary-tree-from-preoder-and-inorder-traversal.cpp
 
 ./a.out
 #time ./a.out
