@@ -59,7 +59,8 @@ set -e
 #$CMD 74-search-2d-matrix.cpp
 #$CMD 105-construct-binary-tree-from-preoder-and-inorder-traversal.cpp
 #$CMD 64-min-path-sum.cpp
-$CMD 994-rotting-oranges.cpp
+#$CMD 994-rotting-oranges.cpp
+$CMD 763-partition-labels.cpp
 
 ./a.out
 #time ./a.out
