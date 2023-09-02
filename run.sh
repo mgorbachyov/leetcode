@@ -60,7 +60,8 @@ set -e
 #$CMD 105-construct-binary-tree-from-preoder-and-inorder-traversal.cpp
 #$CMD 64-min-path-sum.cpp
 #$CMD 994-rotting-oranges.cpp
-$CMD 763-partition-labels.cpp
+#$CMD 763-partition-labels.cpp
+$CMD 560-subarray-sum-equals-k.cpp
 
 ./a.out
 #time ./a.out
