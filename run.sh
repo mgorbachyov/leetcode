@@ -62,7 +62,8 @@ set -e
 #$CMD 994-rotting-oranges.cpp
 #$CMD 763-partition-labels.cpp
 #$CMD 560-subarray-sum-equals-k.cpp
-$CMD 295-find-median-from-data-stream.cpp
+#$CMD 295-find-median-from-data-stream.cpp
+$CMD 24-swap-nodes-in-pairs.cpp
 
 ./a.out
 #time ./a.out
