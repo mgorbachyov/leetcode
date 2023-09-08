@@ -64,7 +64,8 @@ set -e
 #$CMD 560-subarray-sum-equals-k.cpp
 #$CMD 295-find-median-from-data-stream.cpp
 #$CMD 24-swap-nodes-in-pairs.cpp
-$CMD 73-set-matrix-zeroes.cpp
+#$CMD 73-set-matrix-zeroes.cpp
+$CMD 76-minimum-window-substring.cpp
 
 ./a.out
 #time ./a.out
