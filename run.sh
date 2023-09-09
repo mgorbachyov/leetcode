@@ -65,7 +65,8 @@ set -e
 #$CMD 295-find-median-from-data-stream.cpp
 #$CMD 24-swap-nodes-in-pairs.cpp
 #$CMD 73-set-matrix-zeroes.cpp
-$CMD 76-minimum-window-substring.cpp
+#$CMD 76-minimum-window-substring.cpp
+$CMD 739-daily-temperatures.cpp
 
 ./a.out
 #time ./a.out
