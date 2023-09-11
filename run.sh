@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CMD="g++ -Wall -fsanitize=address -O1 -fno-omit-frame-pointer -g"
+CMD="g++ -Wall -fsanitize=address -O0 -fno-omit-frame-pointer -g"
 
 set -e
 
@@ -66,7 +66,8 @@ set -e
 #$CMD 24-swap-nodes-in-pairs.cpp
 #$CMD 73-set-matrix-zeroes.cpp
 #$CMD 76-minimum-window-substring.cpp
-$CMD 739-daily-temperatures.cpp
+#$CMD 739-daily-temperatures.cpp
+$CMD 42-trapping-rain-water.cpp
 
 ./a.out
 #time ./a.out
