@@ -67,7 +67,8 @@ set -e
 #$CMD 73-set-matrix-zeroes.cpp
 #$CMD 76-minimum-window-substring.cpp
 #$CMD 739-daily-temperatures.cpp
-$CMD 42-trapping-rain-water.cpp
+#$CMD 42-trapping-rain-water.cpp
+$CMD 56-merge-intervals.cpp
 
 ./a.out
 #time ./a.out
