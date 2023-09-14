@@ -68,7 +68,8 @@ set -e
 #$CMD 76-minimum-window-substring.cpp
 #$CMD 739-daily-temperatures.cpp
 #$CMD 42-trapping-rain-water.cpp
-$CMD 56-merge-intervals.cpp
+#$CMD 56-merge-intervals.cpp
+$CMD 51-n-queens.cpp
 
 ./a.out
 #time ./a.out
